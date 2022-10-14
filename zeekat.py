@@ -80,6 +80,7 @@ def weibfit(df, grens, output='pars', **kwargs):
         [coeff2,intercept2]=Weibull
         sigma= np.exp(-intercept2/coeff2)
         Ylijn=np.poly1d(Weibull)
+        df=df.assign(tyweib=(Ylijn(df.loc[:, 'Xweib'])))
         wpar=[sigma, coeff2, coeff]
         df=df.assign(tstress= ((coeff*df.loc[:,'strain'])/np.exp(np.exp(Ylijn(df['Xweib'])))))
         if output=='df':

@@ -40,8 +40,7 @@ Pdrie={pad+'Eco_P3_FN4_v_retrSpd10_onespeed_Interval_7.csv':{'grens':9.6},
 knipfit={naam: zk.weibfit(fit[naam], output='pars', **Pdrie[naam]) for naam in fit}
 rang=np.arange(0,1,0.01)
 theoretisch={naam: zk.tbull(rang, knipfit[naam]) for naam in knipfit}
-#vanaf hier is alles voor het maken van 1 plot
-#dict met parameters voor de plot en legenda
+
 config={'xtick.top':True,
 'ytick.right':True,
 'xtick.direction':'in',
@@ -54,11 +53,11 @@ config={'xtick.top':True,
 'legend.fontsize':18,
 'font.size':20,
 }
-#maakt algemene pars van data in dict
+
 mp.rcParams.update(**config)
-#maakt kleurenmap 
+
 cmap=pp.get_cmap('plasma_r')
-#algemene deel van string naar filepath
+
 plotargs={pad+'Eco_P3_FN4_v_retrSpd10_onespeed_Interval_7.csv': {'c' : cmap(0.01),'label':' 1.1 N',  'marker':'o', 'mfc':'w', 'mec':'k', 'markersize':8},
        pad+'Eco_P3_FN4_v_retrSpd30_onespeed_Interval_7.csv':{'c' : cmap(0.1),'label':' 1.1 N'},
        pad+'Eco_P3_FN4_v_retrSpd50_onespeed_Interval_7.csv':{'c' : cmap(0.15),'label':' 1.1 N'},

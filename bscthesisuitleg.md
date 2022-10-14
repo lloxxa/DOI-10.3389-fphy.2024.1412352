@@ -11,3 +11,5 @@ zeekat bevat functies die de data knipt, de stress en strain bepaalt en een fit 
 Er is een apart script voor iedere feature density, zowel voor alle FN experimenten als ook de retraction speed (RS) experimenten. M.b.v. dict comprehension worden curves selectief geplot. Je kunt deze de normaalkrachten of retraction speeds zoals deze in de filename staan invullen om bepaalde curves te plotten.
 
 Voor P2.5 zijn er in de categorie FN 2 mapjes met representatieve curves, deze verschillen alleen in de curve van 0.7N. Het mapje met de naam P2.5B heeft daar een curve die meer representatief is voor de hele loop maar minder goed fit dan de curve die in P2.5 staat. 
+
+Het script 'Lineaire weibull plots' toont de gelineairiseerde plots en de fits op het domein dat ook daadwerkelijk is gebruikt. Gebruik de dictonaries met grenzen zoals die in de andere scripts staan (bvb Pdrie in FNperFDP3). 

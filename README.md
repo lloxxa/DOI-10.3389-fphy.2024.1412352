@@ -91,6 +91,17 @@ This experiment was also carried out for a P2.5 sample with a backing layer of 2
 
 ## <a name="zeekat"></a> Zeekat library
 
-The zeekat library is a collection of functions used for the analysis of the data in this repository. 
+The zeekat library is a collection of functions used for the analysis of the data in this repository. It contains functions to isolate the relevant parts of the data from the retraction curves. It also contains functions to perform basic analysis such as calculating the work of adhesion. Moreover, functions to fit the data with the fiber bundle model using the Weibull distribution are also included. Finally, a sorting algortihm that finds the inidividual detachment events in a curve and calculates the number of cups that correspond to each event is included. Documentation is inline.
+
+
+## <a name="scripts"></a> Scripts
+
+### <a name="fittie"></a> Plotting and fits
+
+The scripts labelled 'preload series fit', 'retr. speed series fit' and 'sample comparison fit' are used to fit data using the fiber bundle model with a Weibull dsitribution. It plots the theoretical curve over one original curve. The script uses a folder of representative curves, which is simply a folder containing one retraction curve per measurement that is representative of the entire dataset. They can be found for all experiments in the folder 'representative curves'. An example of a plot made by 'preload series fit' is shown below. The other two scripts yield comparable results but are used for other experiments. Documentation for these scripts is inline. 
+
+<img src="https://user-images.githubusercontent.com/115638429/212339906-71eebaff-9a65-471b-8e20-63af4215463c.png" width=100% height=100%>
+
+
 
 

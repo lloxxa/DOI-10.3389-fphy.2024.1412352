@@ -39,7 +39,7 @@ config={'xtick.top':True,
 
 mp.rcParams.update(**config) 
 #Isolates relevant data
-lijst=glob.glob(r"\*")
+lijst=glob.glob(r"C:\Users\Helmendach\Documents\GitHub\bscthesis\Raw data\Preload series\P3\Eco_P3_FN4_v_onespeed\*")
 frames={naam: pd.read_csv(naam) for naam in lijst if int(naam.split('_')[-1][:-4])%4==3}
 baselined={naam: zk.baseline( frames[naam] ) for naam in frames}
 geknipt={naam: zk.schaar(baselined[naam], 0, 0.01)for naam in baselined}

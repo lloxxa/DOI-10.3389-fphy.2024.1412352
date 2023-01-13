@@ -1,4 +1,4 @@
-# Sucker analysis
+# Suction cup array analysis
 
 This project studies the adhesion of arrays of millimeter-sized suction cups made from polydimethylsiloxane. Repository contains both data obtained in this project and code used to analyse said data.
 

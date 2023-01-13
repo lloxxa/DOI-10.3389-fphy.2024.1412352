@@ -16,8 +16,8 @@ This project studies the adhesion of arrays of millimeter-sized suction cups mad
           - [Thin backing layer](#backing)
           - [Cut backing layer](#cut)
 - [Zeekat library](#Zeekat)
-- [Scripts for analysis](#scripts)
-     - [Fitting and plots](#fitting)
+- [Scripts](#scripts)
+     - [Plotting and fits](#fittie)
      - [Detachment quantum distribution](#detachment)
 
 
@@ -102,6 +102,12 @@ The scripts labelled 'preload series fit', 'retr. speed series fit' and 'sample 
 
 <img src="https://user-images.githubusercontent.com/115638429/212339906-71eebaff-9a65-471b-8e20-63af4215463c.png" width=100% height=100%>
 
+
+### <a name="detachment"></a> Detachment quantum distribution
+
+The DQD script uses the quantum() function from the zeekat library to find every discrete detachment event in all curves contained in one folder. The script thus uses one folder of raw data containing all intervals of all cycles. It plots a bar chart with the detachment quantum, which is equal to the number of cups that detach in one detachment event, on the x-axis and the probability density on the y-axis. It fits the data using an exponential decay function which is potentially useful for visualiszation purposes as it allows you to compare multiple detachment quantum distributions in one plot. An example of the output is given below. Documentation is inline.
+
+<img src="https://user-images.githubusercontent.com/115638429/212344278-fb81f81b-f4dd-4212-ad5f-25b02a01c5c6.png" width=100% height=100%>
 
 
 

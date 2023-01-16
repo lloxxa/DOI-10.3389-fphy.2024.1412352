@@ -19,6 +19,7 @@ This project studies the adhesion of arrays of millimeter-sized suction cups mad
 - [Scripts](#scripts)
      - [Plotting and fits](#fittie)
      - [Detachment quantum distribution](#detachment)
+- [Bibliography](#bibliography)
 
 
 
@@ -110,4 +111,9 @@ The DQD script uses the quantum() function from the zeekat library to find every
 <img src="https://user-images.githubusercontent.com/115638429/212344278-fb81f81b-f4dd-4212-ad5f-25b02a01c5c6.png" width=100% height=100%>
 
 
+## <a name="bibliography"></a> Bibliography
+
+[1] Eduard Arzt et al. “Functional surface microstructures inspired by nature – From adhesion and wetting
+principles to sustainable new devices”. In: Progress in Materials Science 120 (July 2021), p. 100823.
+issn: 0079-6425. doi: 10.1016/J.PMATSCI.2021.100823
 

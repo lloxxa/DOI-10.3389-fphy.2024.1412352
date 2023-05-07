@@ -1,0 +1,100 @@
+{
+    "Application:": "Anton Paar RheoCompass™ V1.25.0.0",
+    "User:": "WUR\\rheo001",
+    "Date:": "14/06/2022 17:27:35",
+    "Project:": "Maaike_suctionAdhesion_onespeedddd",
+    "Project ID:": "7ca07e65-3bde-4cbb-8869-d98c9896e459",
+    "Creation template:": "Empty project",
+    "Creation Template ID:": "a07bc691-a735-4f37-8ffb-cd28dc4fec91",
+    "Created:": "14/06/2022 16:54:02",
+    "Created by:": "WUR\\rheo001",
+    "Modified:": "14/06/2022 15:11:19",
+    "Modified by:": "WUR\\rheo001",
+    "Maximum number of tests:": "50",
+    "Test:": "Eco_P4_FN4_v_retrSpdX_onespeed",
+    "Test ID:": "47b19a98-b240-4cb0-905d-2b1f4bb054df",
+    "Creation user:": "WUR\\rheo001",
+    "Project name:": "Maaike_suctionAdhesion_onespeedddd",
+    "Original project name:": "Maaike_suctionAdhesion_onespeedddd",
+    "Contained in projects:": "Maaike_suctionAdhesion_onespeedddd",
+    "Number of results:": "9",
+    "Measuring system name:": "Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000",
+    "Application name:": "Anton Paar RheoCompass™ V1.25.422-Release",
+    "Test Start Date and Time:": "14/06/2022 13:53:53",
+    "Preparation Start Time:": "0.000 s",
+    "Result:": "500ums 1",
+    "Success state:": "OK",
+    "Equation system:": "Shear rheology",
+    "Number of Intervals:": "40",
+    "Measuring definition:": {
+        "Interval 1": {
+            "Time settings": "200 data points, Point duration 0.5 s, Interval duration 100 s",
+            "v ": " 100 µm/s",
+            "phi ": " 0 °",
+            "Event control": {
+                "": "...if Normal Force > 4 N"
+            }
+        },
+        "Interval 2": {
+            "Time settings": "40 data points, Point duration 0.5 s, Interval duration 20 s",
+            "phi ": " 0 °"
+        },
+        "Interval 3": {
+            "Time settings": "2000 data points, Point duration 0.005 s, Interval duration 10 s",
+            "v ": " -500 µm/s",
+            "phi ": " 0 °",
+            "Event control": {
+                "": "...if Gap > 16 mm"
+            }
+        },
+        "Interval 4": {
+            "Time settings": "1000 data points, Point duration 0.01 s, Interval duration 10 s",
+            "v ": " -500 µm/s",
+            "phi ": " 0 °",
+            "Event control": {
+                "": "...if Gap > 16 mm"
+            }
+        }
+    },
+    "Measuring set configuration:": {
+        "Configuration": "Default MCR 501 SN80295914",
+        "Device": "MCR 501 SN80295914",
+        "Measuring cell": "P-PTD120 SN80239154",
+        "Accessory": "Relay MCR SN000000",
+        "Measuring system": "Not a plate at all rofl SN00000000000000"
+    },
+    "Service information:": "Anton Paar RheoCompass™-Service V1.25.422-Release",
+    "Device settings:": {
+        "Configuration name": "'Default MCR 501 SN80295914'",
+        "Device name": "'MCR 501-SN80295914'",
+        "Permissions for the device": "Rotation|Oscillation|TruStrain™|RawData|Advanced lift drive control|Read normal force|TruRate™",
+        "Logging": "off",
+        "Calculation data": "Shear rheology,angular[CSR(209.43951,209.43951),CSS(3395.3055,3395.3055,0%),CNS(209.43951)]",
+        "TruStrain™ (oscillation)": "on",
+        "TruGap™": "on",
+        "AGC (measuring system)": "on",
+        "AGC (measuring cell)": "on",
+        "Axial compliance of device": "5.9E-07",
+        "Force dynamic": "0",
+        "Range limitation (electric torque)": "Auto",
+        "Shear stress controller (rotation)": "off",
+        "TruRate™ (rotation, rate control)": "Auto",
+        "TruRate™ (rotation, strain control)": "Auto"
+    },
+    "Device status:": {
+        "Firmware version": "3.55",
+        "Device identification": "'MCR501 80295914'",
+        "Automatic gap control": "on",
+        "Offset and span [Pt100]": "(0,0)",
+        "User-defined start angle": "0",
+        "Drive inertia": "9.65861E-05",
+        "Selected motor adjustment": "0,'default',Short adjustment,1,08/14/2014 10:26:23,0.0050000005"
+    },
+    "Result Start Date and Time:": "14/06/2022 16:54:01",
+    "Axial Compliance:": "0.59 µm/N",
+    "CSR Factor Normalized:": "209.44 s/s",
+    "CSS Factor Normalized:": "3395.3 Pa/N·m",
+    "CNS Factor:": "127.32 1/m²",
+    "Result Start Time:": "10808.305 s",
+    "Run Delay Time:": "0.198 s"
+}

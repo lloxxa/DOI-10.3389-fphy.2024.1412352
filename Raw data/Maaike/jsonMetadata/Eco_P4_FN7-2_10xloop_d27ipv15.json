@@ -1,0 +1,136 @@
+{
+    "Application:": "Anton Paar RheoCompass™ V1.25.0.0",
+    "User:": "rheo001",
+    "Date:": "14/04/2022 13:44:27",
+    "Project:": "Million_Maaike_suctionAdhesion_FN2-7Loop",
+    "Project ID:": "72908678-ba8d-4072-9ce2-96f4743afde5",
+    "Creation template:": "Empty project",
+    "Creation Template ID:": "a07bc691-a735-4f37-8ffb-cd28dc4fec91",
+    "Created:": "13/04/2022 18:43:47",
+    "Created by:": "WUR\\rheo001",
+    "Modified:": "13/04/2022 19:38:13",
+    "Modified by:": "WUR\\rheo001",
+    "Maximum number of tests:": "50",
+    "Test:": "Eco_P4_FN7-2_10xloop_d27ipv15",
+    "Test ID:": "04886d94-5549-4b7d-9d25-72a0b21e1373",
+    "Creation user:": "WUR\\rheo001",
+    "Project name:": "Million_Maaike_suctionAdhesion_FN2-7Loop",
+    "Original project name:": "Million_Maaike_suctionAdhesion_FN2-7Loop",
+    "Contained in projects:": "Million_Maaike_suctionAdhesion_FN2-7Loop;",
+    "Number of results:": "6",
+    "Measuring system name:": "Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000,Not a plate at all rofl SN00000000000000",
+    "Application name:": "Anton Paar RheoCompass™ V1.25.422-Release",
+    "Test Start Date and Time:": "13/04/2022 18:43:42",
+    "Preparation Start Time:": "0.000 s",
+    "Result:": "FN7 1",
+    "Success state:": "OK",
+    "Equation system:": "Shear rheology",
+    "Number of Intervals:": "120",
+    "Measuring definition:": {
+        "Interval 1": {
+            "Time settings": "8000 data points, Point duration from list 1 s",
+            "v ": " 100 µm/s",
+            "Event control": {
+                "": "...if Normal Force > 7 N"
+            }
+        },
+        "Time settings": "40 data points, Point duration 0.5 s, Interval duration 20 s",
+        "Interval 3": {
+            "Time settings": "8000 data points, Point duration 0.005 s, Interval duration 40 s",
+            "v ": " -500 µm/s",
+            "Event control": {
+                "": "...if Gap > 27 mm"
+            }
+        },
+        "Interval 4": {
+            "Time settings": "500 data points, Point duration 0.01 s, Interval duration 5 s",
+            "v ": " -500 µm/s",
+            "Event control": {
+                "": "...if Gap > 27 mm"
+            }
+        },
+        "Interval 5": {
+            "Time settings": "8000 data points, Point duration 0.05 s, Interval duration 400 s",
+            "v ": " 100 µm/s",
+            "Event control": {
+                "": "...if Normal Force > 7 N"
+            }
+        },
+        "Interval 7": {
+            "Time settings": "8000 data points, Point duration 0.005 s, Interval duration 40 s",
+            "v ": " -100 µm/s",
+            "Event control": {
+                "": "...if Gap > 27 mm"
+            }
+        },
+        "Interval 8": {
+            "Time settings": "500 data points, Point duration 0.1 s, Interval duration 50 s",
+            "v ": " -500 µm/s",
+            "Event control": {
+                "": "...if Gap > 27 mm"
+            }
+        },
+        "Interval 9": {
+            "Time settings": "8000 data points, Point duration 0.05 s, Interval duration 400 s",
+            "v ": " 100 µm/s",
+            "Event control": {
+                "": "...if Normal Force > 7 N"
+            }
+        },
+        "Interval 11": {
+            "Time settings": "9000 data points, Point duration 0.005 s, Interval duration 45 s",
+            "v ": " -10 µm/s",
+            "Event control": {
+                "": "...if Gap > 27 mm"
+            }
+        },
+        "Interval 12": {
+            "Time settings": "500 data points, Point duration 0.1 s, Interval duration 50 s",
+            "v ": " -500 µm/s",
+            "Event control": {
+                "": "...if Gap > 27 mm"
+            }
+        }
+    },
+    "Measuring set configuration:": {
+        "Configuration": "Default MCR 501 SN80295914",
+        "Device": "MCR 501 SN80295914",
+        "Measuring cell": "P-PTD120 SN80239154",
+        "Accessory": "Relay MCR SN000000",
+        "Measuring system": "Not a plate at all rofl SN00000000000000"
+    },
+    "Service information:": "Anton Paar RheoCompass™-Service V1.25.422-Release",
+    "Device settings:": {
+        "Configuration name": "'Default MCR 501 SN80295914'",
+        "Device name": "'MCR 501-SN80295914'",
+        "Permissions for the device": "Rotation|Oscillation|TruStrain™|RawData|Advanced lift drive control|Read normal force|TruRate™",
+        "Logging": "off",
+        "Calculation data": "Shear rheology,angular[CSR(104.71976,104.71976),CSS(27162.444,27162.444,0%),CNS(104.71976)]",
+        "TruStrain™ (oscillation)": "on",
+        "TruGap™": "on",
+        "AGC (measuring system)": "on",
+        "AGC (measuring cell)": "on",
+        "Axial compliance of device": "5.9E-07",
+        "Force dynamic": "0",
+        "Range limitation (electric torque)": "Auto",
+        "Shear stress controller (rotation)": "off",
+        "TruRate™ (rotation, rate control)": "Auto",
+        "TruRate™ (rotation, strain control)": "Auto"
+    },
+    "Device status:": {
+        "Firmware version": "3.55",
+        "Device identification": "'MCR501 80295914'",
+        "Automatic gap control": "on",
+        "Offset and span [Pt100]": "(0,0)",
+        "User-defined start angle": "0",
+        "Drive inertia": "9.66193E-05",
+        "Selected motor adjustment": "0,'default',Short adjustment,1,08/14/2014 10:26:23,0.0050000005"
+    },
+    "Result Start Date and Time:": "13/04/2022 18:43:46",
+    "Axial Compliance:": "0.59 µm/N",
+    "CSR Factor Normalized:": "104.72 s/s",
+    "CSS Factor Normalized:": "27162 Pa/N·m",
+    "CNS Factor:": "509.3 1/m²",
+    "Result Start Time:": "4.795 s",
+    "Run Delay Time:": "0.469 s"
+}

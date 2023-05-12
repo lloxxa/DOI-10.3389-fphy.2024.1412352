@@ -15,6 +15,8 @@ This project studies the adhesion of arrays of millimeter-sized suction cups mad
           - [Array size series](#array)
           - [Thin backing layer](#backing)
           - [Cut backing layer](#cut)
+          - [Single-cup measurements](#Single-cup)
+          - [Mushrooms](#Mushroom)
 - [Zeekat library](#Zeekat)
 - [Scripts](#scripts)
      - [Plotting and fits](#fittie)
@@ -90,9 +92,18 @@ This data was obtained to study the role of elastic interactions in the backing 
 
 This experiment was also carried out for a P2.5 sample with a backing layer of 2.59 mm thick. In this experiment, we also obtained data after cutting the backing layer in only one dimension of the lattice. In the filenames, 'uncut' indicates data for the intact backing layer, 'pcut' indicates data for a backing layer that is cut in one direction and 'cut' indicates data obtained for a sample where the backing layer was cut in two dimensions. 
 
+#### <a name="Single-cup"></a> Single-cup measurements
+
+The directory named 'Million' contains data from measurements performed on single cups. Repeated measurements on single cups were performed to study fatigue. Context for this data can be found in the files 'Thesis single cup final' in the directory.
+
+#### <a name="Mushroom"></a> Mushrooms
+
+This directory contains data obtained by performing measurements on arrays of millimeter-sized mushrooms, which adhered to various textiles. Context for this data can be found in Preeti et al. [2]. 
+
+
 ## <a name="zeekat"></a> Zeekat library
 
-The zeekat library is a collection of functions used for the analysis of the data in this repository. It contains functions to isolate the relevant parts of the data from the retraction curves. It also contains functions to perform basic analysis such as calculating the work of adhesion. Moreover, functions to fit the data with the fiber bundle model using the Weibull distribution are also included. Finally, a sorting algortihm that finds the inidividual detachment events in a curve and calculates the number of cups that correspond to each event is included. Documentation is inline.
+The zeekat library is a collection of functions used for the analysis of the data in this repository (except the 'Million' and 'Mushrooms' directories). It contains functions to isolate the relevant parts of the data from the retraction curves. It also contains functions to perform basic analysis such as calculating the work of adhesion. Moreover, functions to fit the data with the fiber bundle model using the Weibull distribution are also included. Finally, a sorting algortihm that finds the inidividual detachment events in a curve and calculates the number of cups that correspond to each event is included. Documentation is inline.
 
 
 ## <a name="scripts"></a> Scripts
@@ -117,3 +128,5 @@ The DQD script uses the quantum() function from the zeekat library to find every
 principles to sustainable new devices”. In: Progress in Materials Science 120 (July 2021), p. 100823.
 issn: 0079-6425. doi: 10.1016/J.PMATSCI.2021.100823
 
+[2] Sharma, P., Saggiomo, V., Doef, V., Kamperman, M., Dijksman, J.A. “Hooked on mushrooms: Preparation and mechanics of a bioinspired soft
+probabilistic fastener”. In: Biointerphases (2021), doi: https://doi.org/10.1116/6.0000634
